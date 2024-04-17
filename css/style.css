@@ -1,0 +1,56 @@
+body{
+    background-color: rgb(27, 27, 27);
+    background-image: linear-gradient(rgb(27, 27, 27), rgb(0, 0, 0));
+}
+.form{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: rgb(182, 192, 200);
+    border-top-right-radius: 30px;
+    border-bottom-left-radius:30px ;
+    height: 400px;
+    width: 400px;
+}
+.form>h1{
+    position: relative;
+    left:35px;
+    font-size:35px;
+}
+.content{
+    position:relative;
+    left:35px;
+}
+input{
+    border-radius: 5px;
+    border: none;
+    width: 320px;
+    height: 30px;
+}
+#forgot{
+    position: relative;
+    left:200px;
+    top:10px;
+}
+#signin{
+    position: relative;
+    top:60px;
+    border-radius: 50px;
+    width: 320px;
+    height:30px;
+    cursor: pointer;
+    background-image: linear-gradient(40deg,rgb(83, 211, 250),rgb(242, 76, 170));
+}
+.createacc{
+    position: relative;
+    top: 100px;
+}
+.form{
+    background-image: linear-gradient(30deg,rgb(234, 203, 90), rgb(11, 85, 211));
+    color: aliceblue;
+}
+a{
+    transition: ease-in-out 0.5s;
+    color:blue;
+}
